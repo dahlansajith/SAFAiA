@@ -33,7 +33,7 @@ function lettersToNumber(letters) {
             total += letterToNumberMap[letter];
         }
     }
-    return total;
+    return total.join(','); // Join the numbers with a comma
 }
 
 function numbersToLetters(numbers) {
